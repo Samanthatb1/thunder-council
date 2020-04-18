@@ -1,0 +1,12 @@
+body{
+     /* background-image: url('images/lightning9.jpg'); */
+     background: repeating-linear-gradient(50deg, #FFCC0F 10px, #FFFD5B 60px);
+}
+#blue-background{
+    background-color: #003399;
+    margin: auto ;
+    width: 900px ;
+    height: 2000px ;
+    border-radius: 30px ;
+    box-shadow: 0px 20px 25px ;
+}
