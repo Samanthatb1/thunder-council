@@ -9,4 +9,126 @@ body{
     height: 2000px ;
     border-radius: 30px ;
     box-shadow: 0px 20px 25px ;
+    position: relative;
 }
+
+h1 {
+    font-family: 'Bree Serif', serif;
+    position: absolute ;
+    font-size: 100px ;
+    color: #F7FF51 ;
+    animation: mymove 7s infinite;
+}
+h1:hover{
+    color:#00FFD8;
+}
+@keyframes mymove {
+    from {text-shadow: 5px 6px 5px rgb(124, 173, 247) ; }
+    to {text-shadow: 5px 6px 5px rgba(223, 171, 0, 0.932); }
+  }
+
+ #t{
+    left: 50px ;
+    top: -30px ;
+ }
+ #h{
+     left: 110px ;
+     top: -30px ;
+ }
+ #u{
+    left: 170px ;
+    top: -30px ;
+} 
+ #n{
+    left: 234px ;
+    top: -30px ;
+}
+ #d{
+    left: 295px ;
+    top: -30px ;
+} 
+ #e{
+    left: 350px ;
+    top: -30px ;
+} 
+ #r{
+    left: 400px ;
+    top: -30px ;
+}
+#c{
+    left: 470px ;
+    top: -30px ;
+}
+#o{
+    left: 531px ;
+    top: -30px ;
+}
+#u2{
+    left: 580px ;
+    top: -30px ;
+}
+#n2{
+    left: 640px ;
+    top: -30px ;
+}
+#c2{
+    left: 700px ;
+    top: -30px ;
+}
+#i{
+    left: 750px ;
+    top: -30px ;
+}
+#l{
+    left: 783px ;
+    top: -30px ;
+}
+
+.gray-rectangle{
+    background-color: rgba(114, 113, 113, 0.726) ;
+    position: relative;
+    top: 200px;
+    left: 30px;
+    width: 500px;
+    border-color: rgb(83, 83, 83);
+    border-style: solid;
+}
+
+.link-home{
+    color: white ;
+    position: relative ;
+    left: 30px ;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.link-schoolBoard{
+    color: white ;
+    position: relative ;
+    left: 75px ;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.link-services{
+    color: white ;
+    position: relative ;
+    left: 110px ;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.link-twitter{
+    color: white ;
+    position: relative ;
+    left: 145px ;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+}
+
+
+
+/*
+#t{
+    background-color: blue;
+    position: relative;
+}
+#h{
+    background-color: red; 
+    position: relative ;
+}
+*/
