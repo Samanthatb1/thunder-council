@@ -92,6 +92,8 @@ h1:hover{
     width: 500px;
     border-color: rgb(83, 83, 83);
     border-style: solid;
+    border-radius: 1px ;
+    box-shadow: 3px 5px 4px ;
 }
 
 .link-home{
@@ -118,17 +120,68 @@ h1:hover{
     left: 145px ;
     font-family: 'Noto Sans KR', sans-serif;
 }
-}
 
-
-
-/*
-#t{
-    background-color: blue;
+.lightning-image{
+    transform: scale(0.5);
     position: relative;
+    left: 400px ;
+    top: 0px ;
+    box-shadow:0 6px 6px rgba(0,0,0,0.23);
+    width: 600px ;
 }
-#h{
-    background-color: red; 
-    position: relative ;
+
+
+.line1{
+    position: absolute ;
+    top: 490px ;
+    background-color: rgb(94, 93, 93);
+    width: 450px ;
+    height: 10px ;
 }
-*/
+.line2{
+    background-color: rgb(94, 93, 93) ;
+    position: absolute ;
+    width: 5px ;
+    height: 1300px ;
+    top: 550px ;
+    left: 7px ;
+    border-radius: 10px ;
+}
+
+#lightblue-background{
+    background-color: #78b0e4;
+    margin: auto ;
+    width: 850px ;
+    height: 500px ;
+    border-radius: 5px ;
+    position: relative;
+    top: -100px ;
+    z-index: 1;
+}
+
+#instagram{
+    position: absolute ;
+    font-size: 40px ;
+    top: -30px ;
+    left: 50px ;
+    font-family: 'Hind', sans-serif;
+    z-index: 2;
+}
+h2 {
+	background: linear-gradient(to right, rgb(24, 21, 224) 0%, #f1fd51 100%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+#school-image{
+    position: absolute;
+    top: 250px ;
+    left: 30px ;
+}
+.school-pic{
+    width: 300px ;
+    height: 200px ;
+}
+
+
+
