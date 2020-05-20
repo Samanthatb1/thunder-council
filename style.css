@@ -7,8 +7,8 @@ body{
     margin: auto ;
     width: 900px ;
     height: 2000px ;
-    border-radius: 30px ;
-    box-shadow: 0px 20px 25px ;
+    border-radius: 20px ;
+    box-shadow: 0px 5px 5px ;
     position: relative;
 }
 
@@ -87,37 +87,31 @@ h1:hover{
 .gray-rectangle{
     background-color: rgba(114, 113, 113, 0.726) ;
     position: relative;
-    top: 200px;
-    left: 30px;
-    width: 500px;
+    top: 180px;
+    left: 32px;
+    width: 828px;
     border-color: rgb(83, 83, 83);
     border-style: solid;
     border-radius: 1px ;
     box-shadow: 3px 5px 4px ;
+    display: flex ;
+    justify-content: space-evenly ;
 }
 
 .link-home{
     color: white ;
-    position: relative ;
-    left: 30px ;
     font-family: 'Noto Sans KR', sans-serif;
 }
 .link-schoolBoard{
     color: white ;
-    position: relative ;
-    left: 75px ;
     font-family: 'Noto Sans KR', sans-serif;
 }
 .link-services{
     color: white ;
-    position: relative ;
-    left: 110px ;
     font-family: 'Noto Sans KR', sans-serif;
 }
 .link-twitter{
     color: white ;
-    position: relative ;
-    left: 145px ;
     font-family: 'Noto Sans KR', sans-serif;
 }
 
@@ -130,58 +124,100 @@ h1:hover{
     width: 600px ;
 }
 
-
-.line1{
-    position: absolute ;
-    top: 490px ;
-    background-color: rgb(94, 93, 93);
-    width: 450px ;
-    height: 10px ;
-}
-.line2{
-    background-color: rgb(94, 93, 93) ;
-    position: absolute ;
-    width: 5px ;
-    height: 1300px ;
-    top: 550px ;
-    left: 7px ;
-    border-radius: 10px ;
+/* Sliding images */
+.slider-image
+{
+    float: left ;
+    margin: 0;
+    padding: 0 ;
+    width: 830px ;
+    height: 624px ;
 }
 
-#lightblue-background{
-    background-color: #78b0e4;
+.slider-frame 
+{
+    width: 830px ;
+    height: 624px ;
+    position: relative ;
+    top: 195px ;
     margin: auto ;
-    width: 850px ;
-    height: 500px ;
-    border-radius: 5px ;
+     overflow: hidden ; 
+    text-align: center ;
+}
+ @-webkit-keyframes slide_animation 
+ {
+    0% {left: 1666px;}
+    10% {left: 1666px;}
+    20% {left:830px;}
+    30% {left:830px;}
+    40% {left: 0px;}
+    50% {left: 0px}
+    60% {left:830px;}
+    70% {left:830px;}
+    80% {left: 1666px;}
+    90% {left: 1666px;}
+    100% {left: 1666px;}
+ }
+
+ @keyframes slide_animation 
+ {
+    0% {left: 1666px;}
+    10% {left: 1666px;}
+    20% {left:830px;}
+    30% {left:830px;}
+    40% {left: 0px;}
+    50% {left: 0px}
+    60% {left:830px;}
+    70% {left:830px;}
+    80% {left: 1666px;}
+    90% {left: 1666px;}
+    100% {left: 1666px;}
+ }
+ .slide-images
+    {
+    width: 2490px ;
+    height: 624px;
+    margin: 0 0 0 -1660px;
     position: relative;
-    top: -100px ;
-    z-index: 1;
-}
+    animation-name: slide_animation ;
+    animation-duration: 33s ;
+    animation-iteration-count: infinite ;
+    animation-play-state: running;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 33s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    }
+  .img-container
+    {
+    height: 624px;
+    width: 2490px;
+    }
 
-#instagram{
-    position: absolute ;
-    font-size: 40px ;
-    top: -30px ;
-    left: 50px ;
-    font-family: 'Hind', sans-serif;
-    z-index: 2;
-}
-h2 {
-	background: linear-gradient(to right, rgb(24, 21, 224) 0%, #f1fd51 100%);
-	-webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
+    .welcome
+    {
+        position: absolute ;
+        font-size: 30px ;
+        color: rgb(153, 177, 255) ;
+        top: 840px ;
+        vertical-align: middle ;
+        width: 830px ;
+        left: 35px ;
+        height: 84px ;
+        display: table ;
+        font-family: 'Oswald', sans-serif;
+        text-align: center ;
+        
+    }
+    
+    .h2
+    {
+        vertical-align: middle ;
+        display: table-cell ;
+    }
 
-#school-image{
-    position: absolute;
-    top: 250px ;
-    left: 30px ;
-}
-.school-pic{
-    width: 300px ;
-    height: 200px ;
-}
+
+
 
 
 
