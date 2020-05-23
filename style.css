@@ -6,7 +6,7 @@ body{
     background-color: #003399;
     margin: auto ;
     width: 900px ;
-    height: 2000px ;
+    height: 2500px ;
     border-radius: 20px ;
     box-shadow: 0px 5px 5px ;
     position: relative;
@@ -198,7 +198,7 @@ h1:hover{
     {
         position: absolute ;
         font-size: 30px ;
-        color: rgb(153, 177, 255) ;
+        color: rgb(202, 214, 255) ;
         top: 840px ;
         vertical-align: middle ;
         width: 830px ;
@@ -216,8 +216,96 @@ h1:hover{
         display: table-cell ;
     }
 
+    /* The grid */
 
+    .container
+    {
+        position: absolute ;
+        width: 830px ;
+        overflow: hidden ;
+        top: 1050px ;
+        left: 35px ;
+        display: grid ;
+        grid-template-columns: 320px 160px 350px ;
+        grid-template-rows: 50px 450px 17px ;
+        grid-column-gap: 15px ;
+        grid-row-gap: 20px ;
 
+        grid-template-areas:
+        "header header instagram"
+        "content content instagram"
+        "footer footer footer";
+    }
 
+    .grid-one
+    {
+        background-color: #eec6ca;
+        grid-area: header;
+        font-family: 'Teko', sans-serif;
+        font-size: 45px ;
+        text-align: center ;
+    }
+    .grid-two
+    {
+        background-color: #e69597;
+        grid-area: instagram;
+    }
+    .grid-three
+    {
+        background-color: #bcf4de;
+        grid-area: content;
+        font-family: 'Teko', sans-serif;
+    }
+    .grid-four
+    {
+        background-color: #f4eea9;
+        grid-area: footer;
+    }
+    .instagram
+    {
+        position: relative ;
+        top: 10px ;
+        left: 10px ;
+        width: 300px ;
+        height: 500px ;
+    }
 
+    /* Update Bar */
 
+    .heading-one
+    {
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px ;
+        color: rgb(255, 107, 168) ;
+        top: -15px ;
+        left: 10px ;
+        position: relative ;
+    }
+    .description-one
+    {
+        font-family: 'Bree Serif', serif;
+        font-size: 19px ;
+        top: -39px ;
+        left: 5px ;
+        position:relative ;
+        width: 490px ;
+    }
+    .description-one-list
+    {
+        font-family: 'Bree Serif', serif;
+        font-size: 19px ;
+        top: -55px ;
+        left: 5px ;
+        position:relative ;
+        width: 490px ;
+        color: rgb(209, 85, 137) ;
+    }
+    .heading-two
+    {
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px ;
+        color: rgb(255, 107, 168) ;
+        top: -85px ;
+        left: 10px ;
+        position: relative ;
+    }
