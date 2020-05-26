@@ -367,3 +367,37 @@ h1:hover{
         top: 1960px ;
         left: 35px ;
     }
+
+
+
+    /* IPHONE CSS */
+    @media (max-width: 500px)
+    {  
+        #blue-background{
+            background-color: pink;
+            margin: auto ;
+            width: 900px ;
+            height: 2000px ;
+            border-radius: 20px ;
+            box-shadow: 0px 5px 5px ;
+            position: relative;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+        
