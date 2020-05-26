@@ -6,7 +6,7 @@ body{
     background-color: #003399;
     margin: auto ;
     width: 900px ;
-    height: 2500px ;
+    height: 2000px ;
     border-radius: 20px ;
     box-shadow: 0px 5px 5px ;
     position: relative;
@@ -63,14 +63,28 @@ h1:hover{
     left: 531px ;
     top: -30px ;
 }
+        #m
+        {
+            left: 505px ;
+            top: -30px ;
+        }
 #u2{
     left: 580px ;
     top: -30px ;
 }
+        #a
+        {
+            left: 590px ;
+            top: -30px ;
+        }
 #n2{
     left: 640px ;
     top: -30px ;
 }
+        #g{
+            left: 648px ;
+            top: -30px ;
+        }
 #c2{
     left: 700px ;
     top: -30px ;
@@ -308,4 +322,48 @@ h1:hover{
         top: -85px ;
         left: 10px ;
         position: relative ;
+    }
+
+    .instagram-link
+    {
+        color: rgb(255, 107, 168) ;
+    }
+
+    /* Images linkage area */
+    .images-link-area
+    {
+        position: absolute ;
+        font-size: 34px ;
+        color: rgb(202, 214, 255) ;
+        top: 1600px ;
+        width: 450px ;
+        left: 35px ;
+        height: 84px ;
+        font-family: 'Oswald', sans-serif;
+        text-align: left ;
+    }
+    .click-here-div
+    {
+        position: absolute ;
+        top: 1530px ;
+        left: 400px ;
+    }
+    .click-here-image
+    {
+        width: 455px ;
+        height: 480px ;
+    }
+
+
+
+
+    /* Yellow bar at the bottom */
+    .footer-bar
+    {
+        background-color: #f4eea9;
+        height: 17px ;
+        width: 830px;
+        position: absolute ;
+        top: 1960px ;
+        left: 35px ;
     }
