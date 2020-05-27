@@ -490,7 +490,7 @@ h1:hover{
     .welcome
     {
         font-size: 50px ;
-        top: 705px ;
+        top: 695px ;
         left: 20px ;
         height: 400px ;
         width: 830px ; 
@@ -498,7 +498,7 @@ h1:hover{
 
     .slider-frame
     {
-        top: 825px ;
+        top: 830px ;
         margin: auto ;
         overflow: hidden ; 
     }
@@ -548,7 +548,7 @@ h1:hover{
         left: 21px ;
         display: grid ;
         grid-template-columns: 830px ;
-        grid-template-rows: 120px 795px 30px ;
+        grid-template-rows: 120px 860px 30px ;
 
         grid-template-areas:
         "header "
@@ -557,7 +557,7 @@ h1:hover{
     }
     .grid-one
     {
-        font-size: 60px ;
+        font-size: 80px ;
         width: 830px ;
         align-items: center ;
     }
@@ -596,7 +596,7 @@ h1:hover{
     .images-link-area
     {
         font-size: 60px ;
-        top: 2755px ;
+        top: 2870px ;
         width: 830px ;
         left: 21px ;
         height: 84px ;
@@ -605,8 +605,8 @@ h1:hover{
     .click-here-div
     {
         position: absolute ;
-        top: 3050px ;
-        left: 125px ;
+        top: 3150px ;
+        left: 122px ;
     }
     .click-here-image
     {
@@ -618,7 +618,7 @@ h1:hover{
     {
         height: 30px ;
         width: 828px;
-        top: 3580px ;
+        top: 3690px ;
         left: 21px ;
     }
 }
