@@ -363,7 +363,7 @@ h1:hover{
 
 
     /* IPHONE CSS */
-    @media (max-width: 400px)
+    @media (max-width: 500px)
     {  
        h1
        {
