@@ -442,7 +442,7 @@ h1:hover{
 
     .blue-background
     {
-        height: 3780px ;
+        height: 3900px ;
         width: 860px ;
     }
     .gray-rectangle
@@ -490,7 +490,7 @@ h1:hover{
     .welcome
     {
         font-size: 50px ;
-        top: 695px ;
+        top: 692px ;
         left: 20px ;
         height: 400px ;
         width: 830px ; 
@@ -605,7 +605,7 @@ h1:hover{
     .click-here-div
     {
         position: absolute ;
-        top: 3150px ;
+        top: 3200px ;
         left: 122px ;
     }
     .click-here-image
@@ -617,8 +617,8 @@ h1:hover{
     .footer-bar
     {
         height: 30px ;
-        width: 828px;
-        top: 3690px ;
+        width: 825px;
+        top: 3765px ;
         left: 21px ;
     }
 }
