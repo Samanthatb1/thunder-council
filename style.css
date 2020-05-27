@@ -442,7 +442,8 @@ h1:hover{
 
     .blue-background
     {
-        height: 3500px ;
+        height: 3780px ;
+        width: 860px ;
     }
     .gray-rectangle
      {
@@ -489,15 +490,15 @@ h1:hover{
     .welcome
     {
         font-size: 50px ;
-        top: 730px ;
-        left: 35px ;
+        top: 705px ;
+        left: 20px ;
         height: 400px ;
         width: 830px ; 
     }
 
     .slider-frame
     {
-        top: 795px ;
+        top: 825px ;
         margin: auto ;
         overflow: hidden ; 
     }
@@ -541,13 +542,13 @@ h1:hover{
     .container
     {
         position: absolute ;
-        width: 830px ;
+        width: 825px ;
         overflow: hidden ;
-        top: 1800px ;
-        left: 35px ;
+        top: 1840px ;
+        left: 21px ;
         display: grid ;
         grid-template-columns: 830px ;
-        grid-template-rows: 120px 740px 30px ;
+        grid-template-rows: 120px 795px 30px ;
 
         grid-template-areas:
         "header "
@@ -556,8 +557,9 @@ h1:hover{
     }
     .grid-one
     {
-        font-size: 100px ;
+        font-size: 60px ;
         width: 830px ;
+        align-items: center ;
     }
     .heading-one
     {
@@ -581,7 +583,7 @@ h1:hover{
     .heading-two
     {
         font-size: 60px ;
-        top: -210px ;
+        top: -219px ;
         left: 10px ;
     }
 
@@ -594,17 +596,17 @@ h1:hover{
     .images-link-area
     {
         font-size: 60px ;
-        top: 2670px ;
+        top: 2755px ;
         width: 830px ;
-        left: 35px ;
+        left: 21px ;
         height: 84px ;
         text-align: center ;
     }
     .click-here-div
     {
         position: absolute ;
-        top: 2900px ;
-        left: 132px ;
+        top: 3050px ;
+        left: 125px ;
     }
     .click-here-image
     {
@@ -615,8 +617,9 @@ h1:hover{
     .footer-bar
     {
         height: 30px ;
-        width: 830px;
-        top: 3410px ;
+        width: 828px;
+        top: 3580px ;
+        left: 21px ;
     }
 }
 
