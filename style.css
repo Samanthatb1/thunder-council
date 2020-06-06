@@ -132,6 +132,10 @@ h1:hover{
     color: white ;
     font-family: 'Noto Sans KR', sans-serif;
 }
+.link-sickKids{
+    color: white ;
+    font-family: 'Noto Sans KR', sans-serif;
+}
 
 /* Sliding images */
 .slider-image
@@ -447,9 +451,9 @@ h1:hover{
     }
     .gray-rectangle
      {
-       top: 400px ;
+       top: 380px ;
        width: 391px ;
-       height: 350px ;
+       height: 370px ;
        left: 50px ;
        font-size: 45px ;
       }
@@ -457,33 +461,38 @@ h1:hover{
     .link-home
     {
      position: absolute;
-     top: 10px ;
+     top: 0px ;
      left: 20px ;
     }
     .link-schoolBoard
     {
         position: absolute;
-        top: 68px ;
+        top: 58px ;
         left: 20px ;
         width: 300px ;
     }
     .link-services
     {
         position: absolute;
-        top: 128px ;
+        top: 113px ;
         left: 20px ;
         width: 400px ;
     }
     .link-twitter
     {
         position: absolute;
-        top: 188px ;
+        top: 173px ;
         left: 20px ;
     }
     .link-calendar
     {
         position: absolute;
-        top: 248px ;
+        top: 233px ;
+        left: 20px ;
+    }
+    .link-sickKids{
+        position: absolute;
+        top: 287px ;
         left: 20px ;
     }
 
