@@ -1,12 +1,14 @@
 body{
-     /* background-image: url('images/lightning9.jpg'); */
-     background: repeating-linear-gradient(50deg, #FFCC0F 10px, #FFFD5B 60px);
+    /* background-image: url('images/lightning9.jpg'); */
+   /* background: repeating-linear-gradient(50deg, #FFCC0F 10px, #FFFD5B 60px); */
+   background-color: #ffffab;
+   background: repeating-linear-gradient(50deg, #fdd852 10px, #fdfb7f 60px);
 }
 .blue-background{
     background-color: #003399;
     margin: auto ;
     width: 900px ;
-    height: 2000px ;
+    height: 2100px ;
     border-radius: 20px ;
     box-shadow: 0px 5px 5px ;
     position: relative;
@@ -115,26 +117,51 @@ h1:hover{
 .link-home{
     color: white ;
     font-family: 'Noto Sans KR', sans-serif;
+    text-decoration: none;
 }
 .link-schoolBoard{
     color: white ;
     font-family: 'Noto Sans KR', sans-serif;
+    text-decoration: none;
 }
 .link-services{
     color: white ;
     font-family: 'Noto Sans KR', sans-serif;
+    text-decoration: none;
 }
 .link-twitter{
     color: white ;
     font-family: 'Noto Sans KR', sans-serif;
+    text-decoration: none;
 }
 .link-calendar{
     color: white ;
     font-family: 'Noto Sans KR', sans-serif;
+    text-decoration: none;
 }
 .link-sickKids{
     color: white ;
     font-family: 'Noto Sans KR', sans-serif;
+    text-decoration: none;
+}
+
+.link-home:hover{
+    text-decoration: underline;
+}
+.link-schoolBoard:hover{
+    text-decoration: underline;
+}
+.link-services:hover{
+    text-decoration: underline;
+}
+.link-twitter:hover{
+    text-decoration: underline;
+}
+.link-calendar:hover{
+    text-decoration: underline;
+}
+.link-sickKids:hover{
+    text-decoration: underline;
 }
 
 /* Sliding images */
@@ -235,18 +262,19 @@ h1:hover{
     {
         position: absolute ;
         width: 830px ;
-        overflow: hidden ;
+       /* overflow: hidden ; */
         top: 1050px ;
         left: 35px ;
         display: grid ;
-        grid-template-columns: 320px 160px 350px ;
-        grid-template-rows: 50px 450px 17px ;
+        grid-template-columns: 320px 160px 323px ;
+        grid-template-rows: 50px 450px 80px 17px ;
         grid-column-gap: 15px ;
         grid-row-gap: 20px ;
 
         grid-template-areas:
         "header header instagram"
         "content content instagram"
+        "yearbook yearbook yearbook"
         "footer footer footer";
     }
 
@@ -273,6 +301,15 @@ h1:hover{
     {
         background-color: #f4eea9;
         grid-area: footer;
+    }
+    .grid-five{
+        display: flex ;
+        justify-content: center;
+        align-items: center;
+        grid-area: yearbook ;
+        background-color: #f8b014;
+        text-align: center ;
+        font-size: 40px ;
     }
     .instagram
     {
@@ -334,7 +371,7 @@ h1:hover{
         position: absolute ;
         font-size: 34px ;
         color: rgb(202, 214, 255) ;
-        top: 1600px ;
+        top: 1670px ;
         width: 450px ;
         left: 35px ;
         height: 84px ;
@@ -344,13 +381,20 @@ h1:hover{
     .click-here-div
     {
         position: absolute ;
-        top: 1530px ;
-        left: 400px ;
+        top: 1700px ;
+        left: 510px ;
     }
     .click-here-image
     {
-        width: 455px ;
-        height: 480px ;
+        width: 300px ;
+        height: 300px ;
+    }
+
+    /* Yearbook */
+    .yearbook{
+        text-decoration: none;
+        color: white ;
+        font-family: 'Oswald', sans-serif;
     }
 
     /* Yellow bar at the bottom */
@@ -360,7 +404,7 @@ h1:hover{
         height: 17px ;
         width: 830px;
         position: absolute ;
-        top: 1960px ;
+        top: 2020px ;
         left: 35px ;
     }
 
@@ -372,6 +416,8 @@ h1:hover{
        h1
        {
            font-size: 150px ;
+           animation: none ;
+           text-shadow: 5px 6px 5px rgb(124, 173, 247) ;
        }
     #t{
         left: 50px ;
@@ -463,6 +509,7 @@ h1:hover{
      position: absolute;
      top: 0px ;
      left: 20px ;
+     text-decoration: underline;
     }
     .link-schoolBoard
     {
@@ -470,6 +517,7 @@ h1:hover{
         top: 58px ;
         left: 20px ;
         width: 300px ;
+        text-decoration: underline;
     }
     .link-services
     {
@@ -477,23 +525,27 @@ h1:hover{
         top: 113px ;
         left: 20px ;
         width: 400px ;
+        text-decoration: underline;
     }
     .link-twitter
     {
         position: absolute;
         top: 173px ;
         left: 20px ;
+        text-decoration: underline;
     }
     .link-calendar
     {
         position: absolute;
         top: 233px ;
         left: 20px ;
+        text-decoration: underline;
     }
     .link-sickKids{
         position: absolute;
         top: 287px ;
         left: 20px ;
+        text-decoration: underline;
     }
 
     .welcome
@@ -557,11 +609,12 @@ h1:hover{
         left: 21px ;
         display: grid ;
         grid-template-columns: 830px ;
-        grid-template-rows: 120px 860px 30px ;
+        grid-template-rows: 120px 860px 130px 30px ;
 
         grid-template-areas:
         "header "
         "content "
+        "yearbook"
         "footer ";
     }
     .grid-one
@@ -569,6 +622,9 @@ h1:hover{
         font-size: 80px ;
         width: 830px ;
         align-items: center ;
+    }
+    .grid-five{
+        grid-area: yearbook ;
     }
     .heading-one
     {
@@ -596,16 +652,14 @@ h1:hover{
         left: 10px ;
     }
 
-
-
-
-
-
+    .yearbook{
+        font-size: 50px ;
+    }
 
     .images-link-area
     {
         font-size: 60px ;
-        top: 2870px ;
+        top: 2985px ;
         width: 830px ;
         left: 21px ;
         height: 84px ;
@@ -614,20 +668,20 @@ h1:hover{
     .click-here-div
     {
         position: absolute ;
-        top: 3200px ;
-        left: 122px ;
+        top: 3380px ;
+        left: 212px ;
     }
     .click-here-image
     {
-        width: 600px ;
-        height: 600px ;
+        width: 400px ;
+        height: 400px ;
     }
     /* Yellow bar at the bottom */
     .footer-bar
     {
         height: 30px ;
         width: 825px;
-        top: 3765px ;
+        top: 3845px ;
         left: 21px ;
     }
 }

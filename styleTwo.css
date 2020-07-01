@@ -16,6 +16,10 @@ html{
  .main-header{
      background: #001a4d;
      height: 65px;
+     position: fixed ;
+     top: 0px ;
+     z-index: 5 ;
+     width: 100% ;
  }
  @media (max-width: 830px)
  {
