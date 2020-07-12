@@ -7,10 +7,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Hind:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;335&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=100%">
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="phoneStyle.css" rel="stylesheet" type="text/css">
 </head>
-<link href="style.css" rel="stylesheet" type="text/css">
-<body>
+<body id="body-of-page">
    <div class="blue-background">
 
     <h1 id="t">T</h1>
@@ -30,14 +33,14 @@
     <h1 id="l">l</h1>
 
 
-    <div class="gray-rectangle">
-        <a href="index.html" class="link-home">Home</a>
-        <a href="https://www.dpcdsb.org/" class="link-schoolBoard" target="_blank">School Board</a>
-        <a href="https://twitter.com/ServicesThunder" class="link-services" target="_blank" >Student Services</a>
-        <a href="https://twitter.com/thundercouncil" class="link-twitter" target="_blank" >Twitter</a>
-        <a href="" class="link-calendar" >Calendar</a>
-        <a href="sickKids.html" class="link-sickKids" > Mikes Sick Kids</a>
-    </div>
+<div class="gray-rectangle">
+    <a href="index.html" class="link-home">Home</a>
+    <a href="https://www.dpcdsb.org/" class="link-schoolBoard" target="_blank">School Board</a>
+    <a href="https://twitter.com/ServicesThunder" class="link-services" target="_blank" >Student Services</a>
+    <a href="https://twitter.com/thundercouncil" class="link-twitter" target="_blank" >Twitter</a>
+    <a href="" class="link-calendar" >Calendar</a>
+    <a href="sickKids.html" class="link-sickKids" > Mikes Sick Kids</a>
+</div>
 
 <div class="slider-frame">
     <div class="slide-images">
@@ -73,22 +76,45 @@
     <div class="grid-four"></div>
 </div>
 
-<div class="images-link-area">
-    <h3>WANT TO VIEW IMAGES OF SOME OF THE AMAZING THUNDER COUNCIL CONTRIBUTIONS?</h3>
-</div>
 
-<a href="images.html">
-<div class="click-here-div">
-    <img src="images/click-here-two.png" class="click-here-image">
+<div class="below-section">
+    <div class="image-click-section">
+        <h3 class="image-directions">WANT TO VIEW IMAGES OF SOME OF THE AMAZING THUNDER COUNCIL CONTRIBUTIONS?</h3>
+        <a href="images.html" class="click-here">
+            <img src="images/click-here-two.png" class="click-here-image">
+        </a>
+    </div>
+    <div class="kind-message-section">
+        <h4 class="kind-message">Click me for a randomly generated kind message</h4>
+        <button data-modal-target="#modal" id="btn" onclick="kindMessage()">Click!</button>
+    </div>
 </div>
-</a>
-
 
 <footer>
-<div class="footer-bar"></div>
-</footer>
+    <div class="footer-bar"></div>
+    </footer>
+
+<p class="creator-info">Created & Managed by Samantha Grieco April 2020-Present</p>
 
 
+
+
+
+
+<div class="modal" id="modal">
+    <div class="modalHeader">
+        <div class="title">Random Kind Message</div>
+        <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="modalBody">
+        <p id="message"></p>
+    </div>
+</div>
+
+<div id="overlay"></div>
+
+
+<script src="kindMessagePopup.js"></script>
 
 </div>
 </body>

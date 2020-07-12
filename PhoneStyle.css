@@ -1,0 +1,319 @@
+ /* IPHONE CSS */
+ @media (max-width: 500px)
+ {  
+    h1
+    {
+        font-size: 150px ;
+        animation: none ;
+        text-shadow: 5px 6px 5px rgb(124, 173, 247) ;
+    }
+ #t{
+     left: 50px ;
+     top: -39px ;
+  }
+  #h{
+      left: 140px ;
+      top: -39px ;
+  }
+  #u{
+     left: 230px ;
+     top: -39px ;
+ } 
+  #n{
+     left: 321px ;
+     top: -39px ;
+ }
+  #d{
+     left: 409px ;
+     top: -39px ;
+ } 
+  #e{
+     left: 494px ;
+     top: -39px ;
+ } 
+  #r{
+     left: 570px ;
+     top: -39px ;
+ }
+ #c{
+     left: 60px ;
+     top: 86px ;
+ }
+ #o{
+     left: 140px ;
+     top:86px ;
+ }
+         #m
+         {
+             left: 110px ;
+             top: 86px ;
+         }
+ #u2{
+     left: 220px ;
+     top: 86px ;
+ }
+         #a
+         {
+             left: 240px ;
+             top: 86px ;
+         }
+ #n2{
+     left: 310px ;
+     top: 86px ;
+ }
+         #g{
+             left: 320px ;
+             top: 86px ;
+         }
+ #c2{
+     left: 400px ;
+     top: 86px ;
+ }
+ #i{
+     left: 475px ;
+     top: 89px ;
+ }
+ #l{
+     left: 525px ;
+     top: 90px ;
+ }
+
+ .blue-background
+ {
+     height: 4030px ;
+     width: 860px ;
+ }
+ .gray-rectangle
+  {
+    top: 400px ;
+    width: 391px ;
+    height: 370px ;
+    left: 50px ;
+    font-size: 45px ;
+   }
+
+ .link-home
+ {
+  position: absolute;
+  top: 0px ;
+  left: 20px ;
+  text-decoration: underline;
+ }
+ .link-schoolBoard
+ {
+     position: absolute;
+     top: 58px ;
+     left: 20px ;
+     width: 300px ;
+     text-decoration: underline;
+ }
+ .link-services
+ {
+     position: absolute;
+     top: 113px ;
+     left: 20px ;
+     width: 400px ;
+     text-decoration: underline;
+ }
+ .link-twitter
+ {
+     position: absolute;
+     top: 173px ;
+     left: 20px ;
+     text-decoration: underline;
+ }
+ .link-calendar
+ {
+     position: absolute;
+     top: 233px ;
+     left: 20px ;
+     text-decoration: underline;
+ }
+ .link-sickKids{
+     position: absolute;
+     top: 287px ;
+     left: 20px ;
+     text-decoration: underline;
+ }
+
+ .welcome
+ {
+     font-size: 50px ;
+     top: 715px ;
+     left: 20px ;
+     height: 400px ;
+     width: 830px ; 
+ }
+
+ .slider-frame
+ {
+     top: 830px ;
+     margin: auto ;
+     overflow: hidden ; 
+ }
+
+ .slide-images
+ {
+ animation-duration: 40s ;
+ -webkit-animation-duration: 40s;
+ }
+
+ @-webkit-keyframes slide_animation 
+ {
+    0% {left: 1666px;}
+    10% {left: 1666px;}
+    20% {left:1666px;}
+    30% {left:830px;}
+    40% {left: 830px;}
+    50% {left: 0px}
+    60% {left:0px;}
+    70% {left:830px;}
+    80% {left: 830px;}
+    90% {left: 1666px;}
+    100% {left: 1666px;}
+ }
+
+ @keyframes slide_animation 
+ {
+     0% {left: 1666px;}
+     10% {left: 1666px;}
+     20% {left:1666px;}
+     30% {left:830px;}
+     40% {left: 830px;}
+     50% {left: 0px}
+     60% {left:0px;}
+     70% {left:830px;}
+     80% {left: 830px;}
+     90% {left: 1666px;}
+     100% {left: 1666px;}
+  }
+
+ .container
+ {
+     position: absolute ;
+     width: 825px ;
+     overflow: hidden ;
+     top: 1840px ;
+     left: 21px ;
+     display: grid ;
+     grid-template-columns: 830px ;
+     grid-template-rows: 120px 860px 130px 30px ;
+
+     grid-template-areas:
+     "header "
+     "content "
+     "yearbook"
+     "footer ";
+ }
+ .grid-one
+ {
+     font-size: 80px ;
+     width: 830px ;
+     align-items: center ;
+ }
+ .grid-five{
+     grid-area: yearbook ;
+ }
+ .heading-one
+ {
+ font-size: 60px ;
+ top: -50px ;
+ }
+ .description-one
+ {
+     font-size: 30px ;
+     top: -105px ;
+     left: 5px ;
+     width: 830px ;
+ }
+ .description-one-list
+ {
+     font-size: 35px ;
+     top: -155px ;
+     left: 80px ;
+     width: 830px ;
+ }
+ .heading-two
+ {
+     font-size: 60px ;
+     top: -219px ;
+     left: 10px ;
+ }
+
+ .yearbook{
+     font-size: 50px ;
+ }
+
+/* Image click area */
+
+ .below-section{
+    top: 3040px ;
+    left: 10px ;
+}
+
+.image-click-section{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-directions{
+    margin-top: 5px ;
+    margin-bottom: 10px ;
+    font-size: 60px ;
+    width: 730px ;
+    text-align: center;
+}
+
+.kind-message-section{
+    width: 690px ;
+}
+
+.kind-message{
+    font-size: 65px ;
+    max-width: 690px;
+}
+
+ .click-here
+ {
+     width: 300px ;
+     height: 300px ;
+ }
+
+
+
+ /* Yellow bar at the bottom */
+ .footer-bar
+ {
+     height: 30px ;
+     width: 825px;
+     top: 3968px ;
+     left: 21px ;
+ }
+
+/* Pop up */
+.modal{
+    width: 800px ;
+    height: 300px ;
+    max-width: 80%;
+}
+
+.title{
+    font-size: 60px ;
+}
+
+#message{
+    font-size: 35px ;
+    line-height: 35px ;
+} 
+
+.creator-info{
+    top: 3990px ;
+    left: 22px ;
+}
+
+
+} /* end of query */
+
+
+     
