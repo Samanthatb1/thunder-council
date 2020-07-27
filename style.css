@@ -32,6 +32,7 @@ h1:hover{
  #t{
     left: 50px ;
     top: -30px ;
+    color: red !important ;
  }
  #h{
      left: 110px ;
