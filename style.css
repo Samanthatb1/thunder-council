@@ -524,6 +524,7 @@ h1:hover{
      font-size: 50px ;
      height: 400px ;
      width: 830px ; 
+     margin-bottom: 30px ;
  }
 
  .welcome h2{
@@ -533,6 +534,7 @@ h1:hover{
  .slider-frame
  {
     margin: auto ;
+    margin-bottom: 25px ;
     overflow: hidden ; 
  }
 
@@ -578,7 +580,7 @@ h1:hover{
      overflow: hidden ;
      display: grid ;
      grid-template-columns: 830px ;
-     grid-template-rows: 120px 860px 130px 30px ;
+     grid-template-rows: 120px 890px 130px 30px ;
 
      grid-template-areas:
      "header "
