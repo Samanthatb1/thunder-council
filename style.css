@@ -6,20 +6,23 @@ body{
 }
 .blue-background{
     background-color: #003399;
-    margin: auto ;
+    margin: 0 auto ;
     width: 900px ;
-    height: 2400px !important ;
+    min-height: 1000px;
     border-radius: 20px ;
     box-shadow: 0px 5px 5px ;
     position: relative;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
     font-family: 'Bree Serif', serif;
-    position: absolute ;
     font-size: 100px ;
     color: #F7FF51 ;
     animation: mymove 7s infinite;
+    margin: 17px 0 ;
 }
 h1:hover{
     color:#00FFD8;
@@ -29,83 +32,21 @@ h1:hover{
     to {text-shadow: 5px 6px 5px rgba(223, 171, 0, 0.932); }
   }
 
- #t{
-    left: 50px ;
-    top: -30px ;
-    color: red !important ;
- }
- #h{
-     left: 110px ;
-     top: -30px ;
- }
- #u{
-    left: 170px ;
-    top: -30px ;
-} 
- #n{
-    left: 234px ;
-    top: -30px ;
+.council-title{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 750px ;
 }
- #d{
-    left: 295px ;
-    top: -30px ;
-} 
- #e{
-    left: 350px ;
-    top: -30px ;
-} 
- #r{
-    left: 400px ;
-    top: -30px ;
-}
-#c{
-    left: 470px ;
-    top: -30px ;
-}
-#o{
-    left: 531px ;
-    top: -30px ;
-}
-        #m
-        {
-            left: 505px ;
-            top: -30px ;
-        }
-#u2{
-    left: 580px ;
-    top: -30px ;
-}
-        #a
-        {
-            left: 590px ;
-            top: -30px ;
-        }
-#n2{
-    left: 640px ;
-    top: -30px ;
-}
-        #g{
-            left: 648px ;
-            top: -30px ;
-        }
-#c2{
-    left: 700px ;
-    top: -30px ;
-}
-#i{
-    left: 750px ;
-    top: -30px ;
-}
-#l{
-    left: 783px ;
-    top: -30px ;
+
+.top-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .gray-rectangle{
     background-color: rgba(114, 113, 113, 0.726) ;
-    position: relative;
-    top: 180px;
-    left: 32px;
     width: 828px;
     border-color: rgb(83, 83, 83);
     border-style: solid;
@@ -113,59 +54,28 @@ h1:hover{
     box-shadow: 3px 5px 4px ;
     display: flex ;
     justify-content: space-evenly ;
+    margin-bottom: 20px ;
 }
 
-.link-home{
-    color: white ;
-    font-family: 'Noto Sans KR', sans-serif;
-    text-decoration: none;
-}
-.link-schoolBoard{
-    color: white ;
-    font-family: 'Noto Sans KR', sans-serif;
-    text-decoration: none;
-}
-.link-services{
-    color: white ;
-    font-family: 'Noto Sans KR', sans-serif;
-    text-decoration: none;
-}
-.link-twitter{
-    color: white ;
-    font-family: 'Noto Sans KR', sans-serif;
-    text-decoration: none;
-}
-.link-calendar{
-    color: white ;
-    font-family: 'Noto Sans KR', sans-serif;
-    text-decoration: none;
-}
-.link-sickKids{
+.link{
     color: white ;
     font-family: 'Noto Sans KR', sans-serif;
     text-decoration: none;
 }
 
-.link-home:hover{
-    text-decoration: underline;
-}
-.link-schoolBoard:hover{
-    text-decoration: underline;
-}
-.link-services:hover{
-    text-decoration: underline;
-}
-.link-twitter:hover{
-    text-decoration: underline;
-}
-.link-calendar:hover{
-    text-decoration: underline;
-}
-.link-sickKids:hover{
+.link:hover{
     text-decoration: underline;
 }
 
 /* Sliding images */
+
+.welcome-and-images{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 .slider-image
 {
     float: left ;
@@ -179,10 +89,7 @@ h1:hover{
 {
     width: 830px ;
     height: 624px ;
-    position: relative ;
-    top: 195px ;
-    margin: auto ;
-     overflow: hidden ; 
+    overflow: hidden ; 
     text-align: center ;
 }
  @-webkit-keyframes slide_animation 
@@ -237,18 +144,12 @@ h1:hover{
 
     .welcome
     {
-        position: absolute ;
         font-size: 30px ;
         color: rgb(202, 214, 255) ;
-        top: 840px ;
         vertical-align: middle ;
         width: 830px ;
-        left: 35px ;
-        height: 84px ;
-        display: table ;
         font-family: 'Oswald', sans-serif;
         text-align: center ;
-        
     }
     
     .h2
@@ -261,11 +162,8 @@ h1:hover{
 
     .container
     {
-        position: absolute ;
         width: 830px ;
        /* overflow: hidden ; */
-        top: 1050px ;
-        left: 35px ;
         display: grid ;
         grid-template-columns: 320px 160px 323px ;
         grid-template-rows: 50px 450px 80px 17px ;
@@ -291,12 +189,18 @@ h1:hover{
     {
         background-color: #e69597;
         grid-area: instagram;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .grid-three
     {
         background-color: #bcf4de;
         grid-area: content;
         font-family: 'Teko', sans-serif;
+        display: flex ;
+        flex-direction: column;
+        justify-content: start;
     }
     .grid-four
     {
@@ -314,11 +218,10 @@ h1:hover{
     }
     .instagram
     {
-        position: relative ;
-        top: 10px ;
-        left: 10px ;
-        width: 300px ;
-        height: 500px ;
+        width: 90% ;
+        height: auto ;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     /* Update Bar */
@@ -328,37 +231,29 @@ h1:hover{
         font-family: 'Oswald', sans-serif;
         font-size: 30px ;
         color: rgb(255, 107, 168) ;
-        top: -15px ;
-        left: 10px ;
-        position: relative ;
+        margin: 5px 10px ;
     }
     .description-one
     {
         font-family: 'Bree Serif', serif;
         font-size: 19px ;
-        top: -39px ;
-        left: 5px ;
-        position:relative ;
         width: 490px ;
+        margin: 0 10px ;
     }
     .description-one-list
     {
         font-family: 'Bree Serif', serif;
         font-size: 19px ;
-        top: -55px ;
-        left: 5px ;
-        position:relative ;
         width: 490px ;
         color: rgb(209, 85, 137) ;
+        margin: 14px 0 0 0;
     }
     .heading-two
     {
         font-family: 'Oswald', sans-serif;
         font-size: 30px ;
         color: rgb(255, 107, 168) ;
-        top: -85px ;
-        left: 10px ;
-        position: relative ;
+        margin: 0 10px;
     }
 
     .instagram-link
@@ -376,9 +271,6 @@ h1:hover{
     /* Images linkage area */
 
     .below-section{
-        position: absolute ;
-        top: 1700px ;
-        left: 35px ;
         display: flex ;
         flex-direction: column;
         width: 833px ;
@@ -439,21 +331,16 @@ h1:hover{
         background-color: #f894b2;
       }
       
-    .click-here-image
-    {
+    .click-here-image{
         width: 300px ;
         height: 300px ;
     }
 
     /* Yellow bar at the bottom */
-    .footer-bar
-    {
+    footer{
         background-color: #f4eea9;
         height: 17px ;
         width: 830px;
-        position: absolute ;
-        top: 2330px ;
-        left: 35px ;
     }
 
     /* Kind Message Popup */
@@ -556,10 +443,10 @@ h1:hover{
     /* Creator Info */
 
     .creator-info{
-        position: absolute ;
-        top: 2350px ;
-        left: 35px ;
         color: white ;
+        display: flex ;
+        justify-content: start;
+        width: 829px ;
     }
 
 
@@ -582,155 +469,71 @@ h1:hover{
      /* IPHONE CSS */
  @media (max-width: 100px)
  {  
+
+    .council-title{
+        display: flex ;
+        flex-direction: column;
+        align-items: start;
+        width: 815px ;
+        margin-top: 15px ;
+    }
+    
+    .top-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
     h1
     {
         font-size: 150px ;
+        margin: 0 ;
+        line-height: 150px ;
         animation: none ;
         text-shadow: 5px 6px 5px rgb(124, 173, 247) ;
     }
- #t{
-     left: 50px ;
-     top: -39px ;
-  }
-  #h{
-      left: 140px ;
-      top: -39px ;
-  }
-  #u{
-     left: 230px ;
-     top: -39px ;
- } 
-  #n{
-     left: 321px ;
-     top: -39px ;
- }
-  #d{
-     left: 409px ;
-     top: -39px ;
- } 
-  #e{
-     left: 494px ;
-     top: -39px ;
- } 
-  #r{
-     left: 570px ;
-     top: -39px ;
- }
- #c{
-     left: 60px ;
-     top: 86px ;
- }
- #o{
-     left: 140px ;
-     top:86px ;
- }
-         #m
-         {
-             left: 110px ;
-             top: 86px ;
-         }
- #u2{
-     left: 220px ;
-     top: 86px ;
- }
-         #a
-         {
-             left: 240px ;
-             top: 86px ;
-         }
- #n2{
-     left: 310px ;
-     top: 86px ;
- }
-         #g{
-             left: 320px ;
-             top: 86px ;
-         }
- #c2{
-     left: 400px ;
-     top: 86px ;
- }
- #i{
-     left: 475px ;
-     top: 89px ;
- }
- #l{
-     left: 525px ;
-     top: 90px ;
- }
 
  .blue-background
  {
-     height: 4300px !important;
      width: 860px ;
+     min-height: 2000px ;
  }
  .gray-rectangle
   {
-    top: 400px ;
     width: 391px ;
-    height: 370px ;
-    left: 50px ;
+    height: fit-content ;
     font-size: 45px ;
+    margin-top: 30px ;
+    margin-right: 45% ;
+    padding: 10px ;
+    display: flex ;
+    flex-direction: column;
+    align-items: start ;
    }
 
- .link-home
+ .link
  {
-  position: absolute;
-  top: 0px ;
-  left: 20px ;
   text-decoration: underline;
  }
- .link-schoolBoard
- {
-     position: absolute;
-     top: 58px ;
-     left: 20px ;
-     width: 300px ;
-     text-decoration: underline;
- }
- .link-services
- {
-     position: absolute;
-     top: 113px ;
-     left: 20px ;
-     width: 400px ;
-     text-decoration: underline;
- }
- .link-twitter
- {
-     position: absolute;
-     top: 173px ;
-     left: 20px ;
-     text-decoration: underline;
- }
- .link-calendar
- {
-     position: absolute;
-     top: 233px ;
-     left: 20px ;
-     text-decoration: underline;
- }
- .link-sickKids{
-     position: absolute;
-     top: 287px ;
-     left: 20px ;
-     text-decoration: underline;
- }
 
- .welcome
+ .welcome-and-images{
+    flex-direction: column-reverse;
+}
+  .welcome
  {
      font-size: 50px ;
-     top: 715px ;
-     left: 20px ;
      height: 400px ;
      width: 830px ; 
  }
 
+ .welcome h2{
+     margin: 5px;
+ }
+
  .slider-frame
  {
-     top: 830px ;
-     margin: auto ;
-     overflow: hidden ; 
+    margin: auto ;
+    overflow: hidden ; 
  }
 
  .slide-images
@@ -771,11 +574,8 @@ h1:hover{
 
  .container
  {
-     position: absolute ;
      width: 825px ;
      overflow: hidden ;
-     top: 1840px ;
-     left: 21px ;
      display: grid ;
      grid-template-columns: 830px ;
      grid-template-rows: 120px 860px 130px 30px ;
@@ -798,27 +598,20 @@ h1:hover{
  .heading-one
  {
  font-size: 60px ;
- top: -50px ;
  }
  .description-one
  {
      font-size: 30px ;
-     top: -105px ;
-     left: 5px ;
      width: 830px ;
  }
  .description-one-list
  {
      font-size: 35px ;
-     top: -155px ;
-     left: 80px ;
      width: 830px ;
  }
  .heading-two
  {
      font-size: 60px ;
-     top: -219px ;
-     left: 10px ;
  }
 
  .yearbook{
@@ -826,11 +619,6 @@ h1:hover{
  }
 
 /* Image click area */
-
- .below-section{
-    top: 3040px ;
-    left: 10px ;
-}
 
 .image-click-section{
     flex-direction: column;
@@ -857,17 +645,15 @@ h1:hover{
 
  .click-here
  {
-     width: 300px ;
-     height: 300px ;
+    width: 300px ;
+    height: 300px ;
  }
 
  /* Yellow bar at the bottom */
  .footer-bar
  {
-     height: 30px ;
-     width: 825px;
-     top: 4150px ;
-     left: 21px ;
+    height: 30px ;
+    width: 825px;
  }
 
  .creator-info{
