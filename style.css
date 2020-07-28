@@ -2,13 +2,14 @@ body{
     /* background-image: url('images/lightning9.jpg'); */
    /* background: repeating-linear-gradient(50deg, #FFCC0F 10px, #FFFD5B 60px); */
    background-color: #ffffab;
-   background: repeating-linear-gradient(50deg, #fdd852 10px, #fdfb7f 60px);
+   /*background: repeating-linear-gradient(50deg, #fdd852 10px, #fdfb7f 60px); */
+    background: repeating-linear-gradient(50deg, #ffe175 10px, #fcfa99 60px); 
 }
 .blue-background{
     background-color: #003399;
     margin: 0 auto ;
     width: 900px ;
-    min-height: 1000px;
+    min-height: 1800px;
     border-radius: 20px ;
     box-shadow: 0px 5px 5px ;
     position: relative;
@@ -73,8 +74,6 @@ h1:hover{
     display: flex;
     flex-direction: column;
 }
-
-
 
 .slider-image
 {
@@ -524,7 +523,7 @@ h1:hover{
      font-size: 50px ;
      height: 400px ;
      width: 830px ; 
-     margin-bottom: 40px ;
+     margin-bottom: 50px ;
  }
 
  .welcome h2{
