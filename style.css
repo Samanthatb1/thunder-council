@@ -244,8 +244,8 @@ h1:hover{
         font-family: 'Bree Serif', serif;
         font-size: 19px ;
         width: 490px ;
-        color: rgb(209, 85, 137) ;
-        margin: 14px 0 0 0;
+        color:  rgb(155, 41, 89) ;
+        margin: 14px 0 15px 0;
     }
     .heading-two
     {
@@ -258,6 +258,11 @@ h1:hover{
     .instagram-link
     {
         color: rgb(255, 107, 168) ;
+    }
+
+    .covid-link{
+        text-decoration: none;
+        color: rgb(155, 41, 89) ;
     }
 
     /* Yearbook */
