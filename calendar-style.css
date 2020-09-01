@@ -1,0 +1,27 @@
+.blue-background{
+    min-height: 1050px;
+}
+
+.council-title{
+    width: 820px ;
+}
+
+.calendar{
+    margin: 50px 0 0;
+}
+
+.two{
+    display: none;
+}
+
+@media (max-width: 100px){
+    .two{
+        display: block !important;
+    }
+    .one{
+        display:none;
+    }
+    .blue-background{
+        min-height: 1750px;
+    }
+} 
