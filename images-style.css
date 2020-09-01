@@ -1,7 +1,7 @@
 .image-container{
     width: 95% ;
     margin: auto ;
-    padding: 0 5px ;
+    padding: 20px 5px ;
 
     /*display: none; */
 }
@@ -10,20 +10,24 @@
     display: grid ;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    grid-gap: 25px;
+    grid-gap: 10px;
     grid-template-areas: 
-    "img-1 img-2"
+    "img-1 img-10"
     "img-1 img-4"
     "img-3 img-3"
     "img-5 img-6"
-    "img-8 img-6"
+    "img-5 img-6"
     "img-7 img-7"
+    "img-8 img-2"
+    "img-8 img-9"
+    "img-11 img-12"
+    "img-13 img-12"
     ;
 }
 
 .pic{
     width: 100% ;
-    height: 200px ;
+    height: 300px ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -48,18 +52,18 @@
 
 .img-1{
     grid-area: img-1 ;
-    background-image: url(images/giftsBus.JPG) ;
-    min-height: 420px ;
+    background-image: url(thunderpics/cookies.JPG) ;
+    min-height: 610px ;
 }
 
 .img-2{
     grid-area: img-2 ;
-    background-image: url(images/giftsBus.JPG);
+    background-image: url(thunderpics/awards.JPG);
 }
 
 .img-3{
     grid-area: img-3 ;
-    background-image: url(images/giftsBus.JPG);
+    background-image: url(thunderpics/colourwars.JPG);
 }
 
 .img-4{
@@ -69,24 +73,51 @@
 
 .img-5{
     grid-area: img-5 ;
-    background-image: url(images/giftsBus.JPG);
+    background-image: url(thunderpics/balloon.jpg);
+    min-height: 610px ;
 }
 
 .img-6{
     grid-area: img-6 ;
-    background-image: url(images/giftsBus.JPG) ;
-    min-height: 420px ;
+    background-image: url(thunderpics/tallTree.JPG) ;
+    min-height: 610px ;
+    background-position: left bottom ;
 }
 
 .img-7{
     grid-area: img-7 ;
-    background-image: url(images/giftsBus.JPG);
+    background-image: url(thunderpics/colourwarsGreen.JPG);
 }
 
 .img-8{
     grid-area: img-8 ;
-    background-image: url(images/giftsBus.JPG);
+    background-image: url(thunderpics/kindness.JPG);
+    min-height: 610px ;
 }
+.img-9{
+    grid-area: img-9 ;
+    background-image: url(thunderpics/bus.JPG);
+}
+.img-10{
+    grid-area: img-10 ;
+    background-image: url(thunderpics/retreat.JPG);
+}
+.img-11{
+    grid-area: img-11 ;
+    background-image: url(thunderpics/manutrees.JPG);
+    height: 250px ;
+}
+.img-12{
+    grid-area: img-12 ;
+    background-image: url(thunderpics/lowry.jpeg);
+    min-height: 610px ;
+}
+.img-13{
+    grid-area: img-13 ;
+    background-image: url(thunderpics/toys.JPG);
+    height: 350px ;
+}
+
 
 
 
@@ -99,46 +130,61 @@
     }
     .image-gallery{
         display: grid ;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         grid-template-rows: auto;
         grid-gap: 25px;
         grid-template-areas: 
-        "img-1 img-1"
-        "img-1 img-1"
-        "img-2 img-2"
-        "img-2 img-2"
-        "img-3 img-3"
-        "img-3 img-3"
-        "img-4 img-4"
-        "img-5 img-5"
-        "img-5 img-5"
-        "img-6 img-6"
-        "img-6 img-6"
-        "img-7 img-7"
-        "img-8 img-8"
-        "img-8 img-8"
+        "img-1"
+        "img-3"
+        "img-4"
+        "img-5"
+        "img-7"
+        "img-8"
+        "img-2"
+        "img-9"
+        "img-10"
+        "img-11"
+        "img-12"
+        "img-6"
+        "img-13"
         ;
     }
     .img-1{
-        min-height: 420px ;
+        min-height: 1020px ;
     }
     .img-2{
-        min-height: 420px ;
+        min-height: 620px ;
     }
     .img-3{
         min-height: 420px ;
     }
     .img-4{
+        min-height: 820px ;
     }
     .img-5{
-        min-height: 420px ;
+        min-height: 1020px ;
     }
     .img-6{
-        min-height: 420px ;
+        min-height: 1020px ;
     }
     .img-7{
     }
     .img-8{
-        min-height: 420px ;
+        min-height: 820px ;
+    }
+    .img-9{
+        min-height: 520px ;
+    }
+    .img-10{
+        min-height: 480px ;
+    }
+    .img-11{
+        min-height: 580px ;
+    }
+    .img-12{
+        min-height: 1080px ;
+    }
+    .img-13{
+        min-height: 580px ;
     }
 }
