@@ -4,10 +4,14 @@ body{
    background-color: #ffffab;
    /*background: repeating-linear-gradient(50deg, #fdd852 10px, #fdfb7f 60px); */
     background: repeating-linear-gradient(50deg, #ffe175 10px, #fcfa99 60px); 
-}
+    display: flex;
+    justify-content: center;
+    min-width: 870px;
+ } 
+
 .blue-background{
     background-color: #003399;
-    margin: 0 auto ;
+   /* margin: 0 auto ; */
     width: 900px ;
     min-height: 1800px;
     border-radius: 20px ;
@@ -30,7 +34,7 @@ h1:hover{
 }
 @keyframes mymove {
     from {text-shadow: 5px 6px 5px rgb(124, 173, 247) ; }
-    to {text-shadow: 5px 6px 5px rgba(223, 171, 0, 0.932); }
+    to {text-shadow: 5px 6px 5px rgba(255, 194, 252, 0.932); }
   }
 
 .council-title{
@@ -127,11 +131,11 @@ h1:hover{
     margin: 0 0 0 -1660px;
     position: relative;
     animation-name: slide_animation ;
-    animation-duration: 33s ;
+    animation-duration: 65s ;
     animation-iteration-count: infinite ;
     animation-play-state: running;
     -webkit-animation-name: slide_animation;
-    -webkit-animation-duration: 33s;
+    -webkit-animation-duration: 65s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-play-state: running;
     }
@@ -357,7 +361,7 @@ h1:hover{
         -moz-transition: 200ms ease-in-out ;
         -o-transition: 200ms ease-in-out ;
         transition: 200ms ease-in-out ;
-        background-color:rgb(255, 243, 135);
+        background-color:rgb(255, 247, 174);
         border: 1px solid black ;
         border-radius: 10px ;
         z-index: 10 ;
@@ -381,7 +385,8 @@ h1:hover{
         align-items: center;
         border-bottom: 1px solid black;
         /*background-color: rgb(255, 243, 135); */
-        background-color: rgb(187, 186, 186);
+        /* background-color: rgb(187, 186, 186); */
+        background-color: rgb(255, 211, 231);
         border-top-left-radius: 10px ;
         border-top-right-radius: 10px ;
     }
@@ -423,7 +428,7 @@ h1:hover{
         left: 0 ;
         right: 0 ;
         bottom: 0 ;
-        background-color: rgba(0, 0, 0, .5);
+        background-color: rgba(0, 0, 0, 0.692);
         pointer-events: none;
         transition: 200ms ease-in-out;
     }
@@ -444,6 +449,17 @@ h1:hover{
         height: 100%;
     }
 
+    .scrollbar{
+        margin-right: var(--setMargin);
+    }
+
+    .bar{
+        width: var(--setMargin) ;
+        height: 5vh ;
+        background-color: black ;
+        /*opacity: 0.1;*/
+    }
+
     /* Creator Info */
 
     .creator-info{
@@ -451,9 +467,10 @@ h1:hover{
         display: flex ;
         justify-content: start;
         width: 829px ;
+        font-size: 9.5px ;
     }
 
-
+    
 
 
 
@@ -471,7 +488,7 @@ h1:hover{
 
 
      /* IPHONE CSS */
- @media (max-width: 100px)
+ @media (max-width: 440px)
  {  
 
     .council-title{
@@ -499,7 +516,7 @@ h1:hover{
 
  .blue-background
  {
-     width: 860px ;
+     width: 870px ;
      min-height: 2000px ;
  }
  .gray-rectangle

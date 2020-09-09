@@ -8,13 +8,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;335&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=100%">
-
+    <meta name="viewport" content="width=device-width">
     <link href="style.css" rel="stylesheet" type="text/css">
     <!-- <link href="phoneStyle.css" rel="stylesheet" type="text/css"> -->
 </head>
 <body id="body-of-page">
-   <div class="blue-background">
+   <div class="blue-background" >
 
     <div class="council-title">
         <div class="top-header thunder">
@@ -109,7 +108,7 @@
 <div class="modal" id="modal">
     <div class="modalHeader">
         <div class="title">Random Kind Message</div>
-        <button data-close-button class="close-button">&times;</button>
+        <button data-close-button class="close-button" id="button-close">&times;</button>
     </div>
     <div class="modalBody">
         <p id="message"></p>
@@ -118,9 +117,9 @@
 
 <div id="overlay"></div>
 
-
 <script src="kindMessagePopup.js"></script>
 
 </div>
+<div id="scroll-fix"></div>
 </body>
 </html>

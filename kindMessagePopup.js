@@ -3,6 +3,8 @@ var background = document.getElementById('body-of-page') ;
 const openModalButtons = document.querySelectorAll('[data-modal-target]')
 const closeModalButtons = document.querySelectorAll('[data-close-button]')
 const overlay = document.getElementById('overlay')
+const blueBox = document.getElementById('blue-box');
+const bar = document.getElementById("scroll-fix");
 
 var messages = [
     "You're off to great places, today is your day. Your mountain is waiting, so get on your way - Dr Seuss", 
@@ -46,19 +48,20 @@ overlay.addEventListener('click', () => {
   modals.forEach(modal => {
     closeModal(modal)
   })
-})
+}) 
 
 closeModalButtons.forEach(button => {
   button.addEventListener('click', () => {
     const modal = button.closest('.modal')
     closeModal(modal)
   })
-})
+}) 
 
 function openModal(modal) {
   if (modal == null) return
   modal.classList.add('active')
   overlay.classList.add('active')
+  getScrollSize();
   background.classList.add('scrolling-hidden')
 }
 
@@ -67,9 +70,15 @@ function closeModal(modal) {
   modal.classList.remove('active')
   overlay.classList.remove('active')
   background.classList.remove('scrolling-hidden')
+  bar.classList.remove('bar')
+
 }
 
-
-
-
+function getScrollSize () {
+  // get scroll bar width 
+  var calcScrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+  document.documentElement.style.setProperty('--setMargin', calcScrollbarWidth);
+  bar.classList.add('bar')
+      
+}
 
