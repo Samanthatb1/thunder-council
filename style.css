@@ -561,39 +561,8 @@ h1:hover{
 
  .slide-images
  {
- animation-duration: 40s ;
- -webkit-animation-duration: 40s;
+    animation-play-state: paused;
  }
-
- @-webkit-keyframes slide_animation 
- {
-    0% {left: 1666px;}
-    10% {left: 1666px;}
-    20% {left:1666px;}
-    30% {left:830px;}
-    40% {left: 830px;}
-    50% {left: 0px}
-    60% {left:0px;}
-    70% {left:830px;}
-    80% {left: 830px;}
-    90% {left: 1666px;}
-    100% {left: 1666px;}
- }
-
- @keyframes slide_animation 
- {
-     0% {left: 1666px;}
-     10% {left: 1666px;}
-     20% {left:1666px;}
-     30% {left:830px;}
-     40% {left: 830px;}
-     50% {left: 0px}
-     60% {left:0px;}
-     70% {left:830px;}
-     80% {left: 830px;}
-     90% {left: 1666px;}
-     100% {left: 1666px;}
-  }
 
  .container
  {
