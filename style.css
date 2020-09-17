@@ -598,7 +598,7 @@ h1:hover{
      overflow: hidden ;
      display: grid ;
      grid-template-columns: 830px ;
-     grid-template-rows: 120px 890px 130px 130px 30px ;
+     grid-template-rows: 120px 950px 130px 130px 30px ;
 
      grid-template-areas:
      "header "
