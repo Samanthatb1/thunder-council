@@ -169,7 +169,7 @@ h1:hover{
        /* overflow: hidden ; */
         display: grid ;
         grid-template-columns: 320px 160px 323px ;
-        grid-template-rows: 50px 450px 80px 17px ;
+        grid-template-rows: 50px 450px 80px 80px 17px ;
         grid-column-gap: 15px ;
         grid-row-gap: 20px ;
 
@@ -177,6 +177,7 @@ h1:hover{
         "header header instagram"
         "content content instagram"
         "yearbook yearbook yearbook"
+        "gradeNine gradeNine gradeNine"
         "footer footer footer";
     }
 
@@ -215,7 +216,16 @@ h1:hover{
         justify-content: center;
         align-items: center;
         grid-area: yearbook ;
-        background-color: #dbadbb;
+        background-color: #adbddb;
+        text-align: center ;
+        font-size: 40px ;
+    }
+    .grid-six{
+        display: flex ;
+        justify-content: center;
+        align-items: center;
+        grid-area: gradeNine ;
+        background-color: #dbadbb ;
         text-align: center ;
         font-size: 40px ;
     }
@@ -255,7 +265,7 @@ h1:hover{
     {
         font-family: 'Oswald', sans-serif;
         font-size: 30px ;
-        color: rgb(255, 107, 168) ;
+        color: rgb(201, 91, 137) ;
         margin: 0 10px;
     }
 
@@ -275,6 +285,19 @@ h1:hover{
         color: white ;
         font-family: 'Oswald', sans-serif;
     }   
+    .gradeNine{
+        text-decoration: none;
+        color: white ;
+        font-family: 'Oswald', sans-serif;
+    }  
+
+    .gradeNine:hover{
+        color: rgb(255, 246, 166) ;  
+    }
+
+    .yearbook:hover{
+        color:  rgb(255, 246, 166) ;   
+    }
 
     /* Images linkage area */
 
@@ -449,13 +472,18 @@ h1:hover{
         height: 100%;
     }
 
-    .scrollbar{
+   /* .scrollbar{
         margin-right: var(--setMargin);
+    } */
+
+    #scroll-fix{
+        display: none;
     }
 
     .bar{
         width: var(--setMargin) ;
         height: 5vh ;
+        display: visible !important;
         background-color: black ;
         /*opacity: 0.1;*/
     }
@@ -570,12 +598,13 @@ h1:hover{
      overflow: hidden ;
      display: grid ;
      grid-template-columns: 830px ;
-     grid-template-rows: 120px 890px 130px 30px ;
+     grid-template-rows: 120px 890px 130px 130px 30px ;
 
      grid-template-areas:
      "header "
      "content "
      "yearbook"
+     "gradeNine"
      "footer ";
  }
  .grid-one
