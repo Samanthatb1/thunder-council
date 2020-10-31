@@ -246,6 +246,14 @@ h1:hover{
         color: rgb(255, 107, 168) ;
         margin: 5px 10px ;
     }
+    .heading-two
+    {
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px ;
+        color:  rgb(155, 41, 89) ;
+        margin: 0 10px;
+    }
+
     .description-one
     {
         font-family: 'Bree Serif', serif;
@@ -261,20 +269,13 @@ h1:hover{
         color:  rgb(155, 41, 89) ;
         margin: 14px 0 15px 0;
     }
-    .heading-two
-    {
-        font-family: 'Oswald', sans-serif;
-        font-size: 30px ;
-        color: rgb(201, 91, 137) ;
-        margin: 0 10px;
-    }
 
     .instagram-link
     {
         color: rgb(255, 107, 168) ;
     }
 
-    .covid-link{
+    .style-link{
         text-decoration: none;
         color: rgb(155, 41, 89) ;
     }
@@ -632,7 +633,7 @@ h1:hover{
  }
  .heading-two
  {
-     font-size: 60px ;
+     font-size: 50px ;
  }
 
  .yearbook{
