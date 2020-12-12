@@ -169,7 +169,7 @@ h1:hover{
        /* overflow: hidden ; */
         display: grid ;
         grid-template-columns: 320px 160px 323px ;
-        grid-template-rows: 50px 450px 80px 80px 17px ;
+        grid-template-rows: 50px 500px 80px 80px 17px ;
         grid-column-gap: 15px ;
         grid-row-gap: 20px ;
 
@@ -194,8 +194,9 @@ h1:hover{
         background-color: #e69597;
         grid-area: instagram;
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
+        flex-direction: column;
     }
     .grid-three
     {
@@ -243,41 +244,48 @@ h1:hover{
     {
         font-family: 'Oswald', sans-serif;
         font-size: 30px ;
-        color: rgb(255, 107, 168) ;
-        margin: 5px 10px ;
+        color: rgb(253, 165, 179) ;
+        margin: 2px 5px ;
     }
+
+    .heading-insta{
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px ;
+        color: rgb(51, 51, 51) ;
+        margin: 2px 5px ;
+        text-align: center; 
+    }
+
     .heading-two
     {
         font-family: 'Oswald', sans-serif;
-        font-size: 30px ;
-        color:  rgb(155, 41, 89) ;
+        font-size: 27px ;
+        color:  rgb(80, 46, 80) ;
         margin: 0 10px;
     }
 
-    .description-one
-    {
-        font-family: 'Bree Serif', serif;
-        font-size: 19px ;
-        width: 490px ;
-        margin: 0 10px ;
-    }
     .description-one-list
     {
         font-family: 'Bree Serif', serif;
         font-size: 19px ;
-        width: 490px ;
-        color:  rgb(155, 41, 89) ;
-        margin: 14px 0 15px 0;
+       /* width: 490px ; */
+        color:  rgb(46, 45, 46) ;
+        margin: 3px 0 3px 0;
     }
 
     .instagram-link
     {
-        color: rgb(255, 107, 168) ;
+        color: rgb(51, 51, 51) ;
     }
 
     .style-link{
         text-decoration: none;
-        color: rgb(155, 41, 89) ;
+        color:  rgb(46, 45, 46) ;
+    }
+
+    .style-link-tree{
+        text-decoration: none;
+        color:  rgb(88, 52, 88) ;
     }
 
     /* Yearbook */
@@ -599,7 +607,7 @@ h1:hover{
      overflow: hidden ;
      display: grid ;
      grid-template-columns: 830px ;
-     grid-template-rows: 120px 950px 130px 130px 30px ;
+     grid-template-rows: 120px 1020px 130px 130px 30px ;
 
      grid-template-areas:
      "header "
@@ -628,8 +636,7 @@ h1:hover{
  }
  .description-one-list
  {
-     font-size: 35px ;
-     width: 830px ;
+     font-size: 34px ;
  }
  .heading-two
  {
