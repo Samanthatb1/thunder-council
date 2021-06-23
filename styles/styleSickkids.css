@@ -14,7 +14,7 @@ html{
      margin: 0;
  }
  .main-header{
-     background: #001a4d;
+     background: #004AAD;
      height: 65px;
      position: fixed ;
      top: 0px ;
@@ -64,14 +64,13 @@ html{
      width: 100% ;
  }
  .button{
-     background: #ffff99;
+     background: #FBC646;
      color: #000;
      font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
      -webkit-appearance: none;
      font-weight: 700 !important;
      font-size: 1rem;
      text-shadow: none;
-     /* line-height: 1.2; */
      display: inline-block;
      padding: 9px 7px 9px 7px;
      margin: 5px 20px 5px 5px ;
@@ -135,7 +134,7 @@ html{
      margin-right: 300px;
      padding: 30px ;
      padding-top: 35px ;
-     background-color: #ffffc8;
+     background-color: #ffd470;
  }
  .image{
      max-width: 100% ;
@@ -159,7 +158,7 @@ html{
          margin-right: 30px;
          padding: 10px ;
          padding-top: 15px ;
-         background-color: #ffffc8;
+         background-color: #ffd470;
      }
      .img-caption{
          font-size: 20px ;
@@ -172,10 +171,10 @@ html{
      margin-top: 20px ;
  }
  .color-two{
-     background-color: #ffe4eb;
+     background-color: #ffe2a0;
  }
  .color-three{
-     background-color: #f2d7f8;
+     background-color: #fdd67c;
  }
  .info{
      text-align: center;
@@ -190,8 +189,4 @@ html{
  }
  .text{
      display: flex;
- }
- .disclaimer{
-     font-size: 10px ;
-     text-align: left ;
  }
