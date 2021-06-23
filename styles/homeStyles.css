@@ -16,7 +16,7 @@ body{
 .welcome-section{
   width: 100%;
   height: 100vh;
-  background-image: url("images/welcome-backgroundF.png");
+  background-image: url("../images/welcome-backgroundF.png");
   background-repeat: no-repeat;
   background-color: #ffffff;
   background-size: cover;
@@ -225,7 +225,7 @@ text-shadow: 5px 5px #010647;
 
 .colour-image{
   margin-right: 20px;
-  background-image: url("images/giftsFront.png");
+  background-image: url("../images/giftsFront.png");
   background-repeat: no-repeat;
   background-color: #ffffff;
   background-size: cover;
@@ -260,7 +260,7 @@ text-shadow: 5px 5px #010647;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("images/welcome-background9.png");
+  background-image: url("../images/welcome-background9.png");
   background-repeat: no-repeat;
   background-color: #ffffff;
   background-size: 100% 600px;
@@ -424,73 +424,73 @@ h5{
 
 .img-1{
   grid-area: img-1 ;
-  background-image: url(thunderpics/cookies.JPG) ;
+  background-image: url("../thunderpics/cookies.JPG") ;
   min-height: 645px ;
 }
 
 .img-2{
   grid-area: img-2 ;
-  background-image: url(thunderpics/awards.JPG);
+  background-image: url("../thunderpics/awards.JPG");
   min-height: 320px ;
 }
 
 .img-3{
   grid-area: img-3 ;
-  background-image: url(thunderpics/colourwars.JPG);
+  background-image: url("../thunderpics/colourwars.JPG");
   min-height: 415px ;
 }
 
 .img-4{
   grid-area: img-4 ;
-  background-image: url(images/giftsBus.JPG);
+  background-image: url("../images/giftsBus.JPG");
   min-height: 320px ;
 }
 
 .img-5{
   grid-area: img-5 ;
-  background-image: url(thunderpics/balloon.jpg);
+  background-image: url("../thunderpics/balloon.jpg");
   min-height: 610px ;
 }
 
 .img-6{
   grid-area: img-6 ;
-  background-image: url(thunderpics/tallTree.JPG) ;
+  background-image: url("../thunderpics/tallTree.JPG") ;
   min-height: 610px ;
   background-position: center;
 }
 
 .img-7{
   grid-area: img-7 ;
-  background-image: url(thunderpics/colourwarsGreen.JPG);
+  background-image: url("../thunderpics/colourwarsGreen.JPG");
   min-height: 360px ;
 }
 
 .img-8{
   grid-area: img-8 ;
-  background-image: url(thunderpics/kindness.JPG);
+  background-image: url("../thunderpics/kindness.JPG");
   min-height: 610px ;
 }
 .img-9{
   grid-area: img-9 ;
-  background-image: url(thunderpics/bus.JPG);
+  background-image: url("../thunderpics/bus.JPG");
 }
 .img-10{
   grid-area: img-10 ;
-  background-image: url(thunderpics/retreat.JPG);
+  background-image: url("../thunderpics/retreat.JPG");
 }
 .img-11{
   grid-area: img-11 ;
-  background-image: url(thunderpics/manutrees.JPG);
+  background-image: url("../thunderpics/manutrees.JPG");
   min-height: 610px ;
 }
 .img-12{
   grid-area: img-12 ;
-  background-image: url(thunderpics/lowry.jpeg);
+  background-image: url("../thunderpics/lowry.jpeg");
   min-height: 610px ;
 }
 .img-13{
   grid-area: img-13 ;
-  background-image: url(thunderpics/toys.JPG);
+  background-image: url("../thunderpics/toys.JPG");
   min-height: 610px ;
 }
 
