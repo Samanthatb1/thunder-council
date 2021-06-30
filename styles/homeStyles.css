@@ -260,15 +260,14 @@ text-shadow: 5px 5px #010647;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("../images/welcome-background9.png");
+  background-image: url("../images/blue-splash.png");
   background-repeat: no-repeat;
   background-color: #ffffff;
-  background-size: 100% 600px;
+  background-size: 100% 470px;
 }
 
 .container
 {
-   /* overflow: hidden ; */
     display: grid ;
     grid-template-columns: 1000px ;
     grid-template-rows: 90px 90px 90px 90px 17px ;
@@ -551,6 +550,9 @@ h5{
   .title {
     margin: 240px 0 0 50px;
   }
+  .rectangle-links{
+    background-size: 100% 440px;
+  }
 }
 
 @media (max-width: 1466px)
@@ -565,6 +567,9 @@ h5{
   }
   .special-message p{
     font-size: 60px ;
+  }
+  .rectangle-links{
+    background-size: 100% 400px;
   }
 }
 
@@ -611,7 +616,7 @@ h5{
 
   .rectangle-links {
     margin: 70px 0 60px 0;
-    background-size: 100% 500px;
+    background-size: 100% 380px;
   }
 
   .container {
@@ -639,13 +644,16 @@ h5{
   .colour-image {
     padding-top: 50%;
   }
+  .rectangle-links {
+    background-size: 100% 320px;
+  }
 }
 
 @media (max-width: 860px)
 {
   .rectangle-links {
     margin: 70px 0 30px 0;
-    background-size: 100% 430px;
+    background-size: 100% 300px;
   }
   .container {
     grid-template-rows: 60px 60px 60px 60px 17px;
@@ -674,7 +682,6 @@ h5{
   }
   .image-gallery{
     padding: 0 40px;
-    display: grid ;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 25px;
@@ -745,10 +752,6 @@ h5{
     font-size: 110px;
     margin: 130px 0 0 50px;
   }
-  .rectangle-links {
-    margin: 70px 0 0px 0;
-    background-size: 100% 370px;
-  }
   .colour-image {
     margin-right: 0px;
     padding-top: 55%;
@@ -783,7 +786,6 @@ h5{
   }
   .image-gallery{
     padding: 0 40px;
-    display: grid ;
     grid-template-columns: 1fr;
     grid-auto-rows: max-content;
     grid-gap: 25px;
@@ -849,6 +851,9 @@ h5{
 }
 
 @media (max-width: 480px){
+  .title{
+    margin-top: 30px ;
+  }
   h2 {
     font-size: 70px;
   }
