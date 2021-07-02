@@ -15,6 +15,7 @@ body{
 
 .welcome-section{
   width: 100%;
+  min-height: 860px;
   height: 100vh;
   background-image: url("../images/welcome-backgroundF.png");
   background-repeat: no-repeat;
